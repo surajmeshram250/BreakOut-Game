@@ -1,0 +1,75 @@
+.grid {
+  margin-left: 100px;
+  margin-top:50px;
+  width: 560px;
+  height: 300px;
+  background-image: url("http://lofrev.net/wp-content/photos/2016/05/batman-logo-wallpaper.jpg");
+  top: 100px;
+  left: 100px;
+  transform: translate(-50% -50%);
+  box-shadow: 15px 15px 10px #d4d4d4;
+  border-radius: 20px;
+  position: relative;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #f0eeee;
+  border-radius: 5px;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #bd5858;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/UOpuPuj.jpg");
+  background-repeat: no-repeat;
+}
+
+
+#start-over {
+  color: white;
+  background: #993333;
+  position: relative;
+  opacity: 1;
+  transition: 0.3s;  
+  transform: translate(-50% -50%);
+  width:100px;
+  height: 30px;
+  border-radius: 50px;
+  border: #993333;
+  margin-top: 100px;
+  box-shadow: 15px 15px 10px #d4d4d4;
+  margin-left: 30%;
+  margin-top: 150px;
+}
+
+#start-over:hover {opacity: 0.6}
+
+
+#score {
+  width: 20%;
+  margin-left: 100px;
+  background: none;
+  font-family: 'courier';
+}
+
+h1 {
+  color: white;
+}
